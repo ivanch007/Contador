@@ -1,11 +1,12 @@
-import { ContadorCounter } from "./components/ContadorCounter"
+import { UsuariosComponent } from "./components/UsuariosComponent"
+
 
 export const HookApp = () => {
   return (
     <>
       <h1>Aplicación para practicar Hooks</h1>
       <hr />
-      <ContadorCounter></ContadorCounter>
+       <UsuariosComponent></UsuariosComponent>
     </>
   )
 }

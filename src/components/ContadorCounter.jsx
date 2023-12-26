@@ -7,6 +7,7 @@ export const ContadorCounter = () => {
     return (
 
         <>
+       
             <h1>Contador: {contador}</h1>
             <button className="btn btn-primary" onClick={() => incrementar(1)}>+1</button>
             <button className="btn btn-danger" onClick={() => resetear()}>Reset</button>
